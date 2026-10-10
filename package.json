@@ -1,0 +1,24 @@
+{
+  "name": "datum-mask",
+  "version": "1.0.0",
+  "description": "Deterministic streaming PII scrubber preserving referential integrity",
+  "type": "module",
+  "bin": {
+    "datum-mask": "./src/cli.js"
+  },
+  "scripts": {
+    "test": "node test/smoke.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "pii",
+    "anonymization",
+    "masking",
+    "deterministic",
+    "streaming",
+    "gdpr"
+  ],
+  "license": "MIT"
+}
